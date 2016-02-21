@@ -1,0 +1,88 @@
+body {
+    font-family: "DejaVu Sans";
+    font-size: 11pt;
+    color: black;
+    background-image: url("img/symphony.png");
+}
+
+h1 {
+    font-family: "DejaVu Sans";
+    font-size: 18pt;
+    color: black;
+
+}
+
+h2{
+    font-family: "DejaVu Sans";
+    font-size: 16pt;
+    color: black;
+
+}
+
+h3 {
+    font-family: "DejaVu Sans";
+    font-size: 14pt;
+    color: black;
+
+
+}
+
+.text_link {
+    font-family: "DejaVu Sans";
+    font-size: 11pt;
+    color: #555555;
+
+}
+.smoltext {
+    font-family: Arial;
+    font-style: italic;
+    font-size:8pt;
+    text-align: left;
+    padding: 5px;
+}
+
+header {
+    font-family: "DejaVu Sans";
+    font-size: 15pt;
+    color: #222222;
+    margin-left:auto;
+    margin-right:auto;
+
+    width:1020px;
+    height: 100px;
+    opacity: 0.7;
+    /*border: black 2px dashed;*/
+    background-color:#FFFFFF;
+}
+
+.opacityblock {
+    width:26px;
+    height:1px;
+    float: left;
+}
+
+
+.block_center {
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    height: 500px;
+    margin-top: 20px;
+     padding: 10px;
+    /*border: black 2px dashed;*/
+    background-color:#FFFFFF;
+    z-index: 0;
+    /*opacity: 0.5;*/
+}
+#block_1 {
+    margin: auto;
+    width: 210px;
+    height: 200px;
+    z-index: 10;
+    background-color: #00E220;
+    opacity: 1;
+    text-align: center;
+    background: rgba(220, 220, 220, 1);
+    padding: 10px;
+    float: left;
+}
